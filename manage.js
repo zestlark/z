@@ -3,5 +3,5 @@ const xhttp = new XMLHttpRequest();
     let a = this.responseText;
     alert(a);
     }
-  xhttp.open("GET", "http://zestlark.ml/fun/dashboard/z.php", true);
+  xhttp.open("GET", "http://zestlark.ml/fun/dashboard/z.php?name=deep", true);
   xhttp.send();
