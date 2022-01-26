@@ -1,12 +1,12 @@
-function z_check(){
+function z_check(url){
     var request = new XMLHttpRequest();  
-request.open('GET', 'http://www.mozilla.org', true);
+request.open('GET', url, true);
 request.onreadystatechange = function(){
     if (request.readyState === 4){
         if (request.status === 404) {  
-            console.log("Oh no, it does not exist!");
+            return 0;
         }else{
-            console.log("exist")
+            return 1;
         }  
     }
 };
