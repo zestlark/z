@@ -60,7 +60,7 @@ document.head.appendChild(z_ads_style_link)
 let z_cache_data = sessionStorage.getItem("z_cache_data");
 
 if (window_height > 499 && window_width > 270) {
-    if (z_cache_data) {
+    if (!z_cache_data) {
         sessionStorage.setItem("z_cache_data", "visited")
         setTimeout(() => {
             document.body.appendChild(z_ads_box)
