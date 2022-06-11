@@ -1,6 +1,6 @@
 let window_height = window.innerHeight;
 let window_width = window.innerWidth;
-const z_style_link_href = 'https://cdn.jsdelivr.net/gh/zl-manage/z/z_ads_style.css';
+const z_style_link_href = 'https://cdn.jsdelivr.net/gh/zl-manage/z@latest/z_ads_style.css';
 
 let z_ads_json = JSON.parse('{ "ads" : [' + '{ "name":"zestlark" , "type":"popup","link":"http//zestlark.ml","content":"visit zestlark official website to see more awesome projects link this","image":"https://ouch-cdn2.icons8.com/UuHlQCP5syRwWoo7gNVK8YfOPP0k8zs3u1ZhlpKoBnE/rs:fit:256:192/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMTM2/LzNiZjZmMjY3LWQ1/NzAtNDVlNi1iMDE2/LTdhZjg0MjUyZjdh/YS5wbmc.png" }]}');
 
