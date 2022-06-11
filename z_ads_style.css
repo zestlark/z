@@ -11,7 +11,8 @@
     font-family: sans-serif;
     justify-content: center;
     align-items: flex-end;
-    background: linear-gradient(rgb(255, 255, 255) 60%, rgba(0, 0, 0, 0.444))
+    z-index:999999999;
+    background: linear-gradient(rgb(255, 255, 255,0) 60%, rgba(0, 0, 0, 0.444))
 }
 
 .z-ads-box .z-ads-popup {
