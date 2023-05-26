@@ -1,5 +1,5 @@
 
-document.body.innerHTML = '<div id="z_design"></div>';
+document.body.innerHTML += '<div id="z_design"></div>';
 var svgContainer = document.getElementById("z_design");
 var svgUrl = "https://cdn.jsdelivr.net/gh/zl-manage/z@master/Group%2013.svg";
 
